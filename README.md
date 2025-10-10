@@ -66,14 +66,36 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: RegisterNumber: 25008774
+ 
+ ## GATE LEVEL MODEL
+
+![WhatsApp Image 2025-10-10 at 10 33 22_7c991a81](https://github.com/user-attachments/assets/c9c62916-dee9-4e94-9352-af892f505748)
+
+## DATA FLOW  MODEL
+
+![WhatsApp Image 2025-10-10 at 10 33 13_d5122493](https://github.com/user-attachments/assets/2ce82379-8a9d-40ae-b890-646bf7da113e)
+
  
 **Logic symbol & Truthtable**
+![WhatsApp Image 2025-10-10 at 10 11 55_5d8674d9](https://github.com/user-attachments/assets/a2b19251-cf0f-4835-a79f-a2e1bfd38470)
+
 
 **RTL realization Output:** 
 
+![WhatsApp Image 2025-10-10 at 10 11 54_5bf9ef61](https://github.com/user-attachments/assets/b4b6b188-3f5d-4cb7-83e9-cb695c30e809)
+
+
 **RTL**
 
+![WhatsApp Image 2025-10-10 at 10 11 54_4a7994d5](https://github.com/user-attachments/assets/ad79b819-8191-460c-bbca-f18a08b85c8b)
+
+![WhatsApp Image 2025-10-10 at 10 11 54_0b41a897](https://github.com/user-attachments/assets/5dee56cb-5514-4093-b94c-27ecf989c9e9)
+
+
 **Result:**
+
+The truth tables of AND, OR, and NOT gates were successfully verified using Verilog code in Quartus Prime. The simulated outputs matched the expected values.
+
 
 
