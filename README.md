@@ -63,17 +63,37 @@ Y= A⊕B
 
 
 **PROGRAM**
+module logicgates1(a, b, c);
+    input a;
+    input b;
+    output  [6:0] c;
 
+	assign c[0]= a & b;
+	assign c[1]= a | b;
+	assign c[2]= ~(a & b);
+	assign c[3]= ~(a | b);
+	assign c[4]= a ^ b;
+	assign c[5]= ~(a ^ b);
+	assign c[6]= ~ a;
+
+endmodule
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
  Developed by: RegisterNumber: 
  
 **Logic symbol & Truthtable**
 
+![WhatsApp Image 2025-10-17 at 09 34 56_d897fab6](https://github.com/user-attachments/assets/dfbd1875-bbca-4904-8412-482a5596ef0a)
+![WhatsApp Image 2025-10-17 at 09 34 56_9d9e12e2](https://github.com/user-attachments/assets/92543a10-70f7-4c26-9386-15db603833a4)
+
 **RTL realization Output:** 
+![WhatsApp Image 2025-10-17 at 09 34 56_0c5afb7f](https://github.com/user-attachments/assets/699d7c14-f61b-4247-a3ed-189de1c5a5fa)
 
 **RTL**
+![WhatsApp Image 2025-10-17 at 09 34 56_20cbeeda](https://github.com/user-attachments/assets/4e6cb3dc-c1b9-4eb4-8297-faba31850676)
 
-**Result:**
+**Result:**: Thus the outputs of Basic Logic Gates are verified by simulating and synthesizing the VERILOG code
+
+
 
 
